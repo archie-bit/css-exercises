@@ -12,6 +12,17 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 20px;
+}
+
+.profile-notif {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    gap: 10px;
 }
 
 .profile-image {
@@ -44,5 +55,9 @@ a {
 }
 
 ul {
+  display: flex;
+  gap: 20px;
+  padding: 0%;
+  margin: 0%;
   list-style-type: none;
 }
